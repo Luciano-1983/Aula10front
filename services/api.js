@@ -5,7 +5,7 @@ const axios = require('axios').default;
 // http://localhost:3000
 
 const api = axios.create({
-  baseURL: "https://lucback.azurewebsites.net",
+  baseURL: "https://lucapp.azurewebsites.net",
 });
 
 module.exports = api;
