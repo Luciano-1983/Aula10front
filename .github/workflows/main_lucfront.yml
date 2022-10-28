@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'lucfront'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A6791BCB05C04C55A71191B247E6E20E }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_49C03C28816744D1ACD52927DE597C49 }}
           package: .
